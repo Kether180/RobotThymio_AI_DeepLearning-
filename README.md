@@ -1,2 +1,2 @@
-# slam_robot_thymioII
-slam_robot_thymioII
+# SLAM_Robot_ThymioII
+
