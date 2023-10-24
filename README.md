@@ -1,4 +1,4 @@
-# Robot_ThymioII, piCamera + Lidiar Sensor (Slam Simluation + controller)
+# Robot_ThymioII: piCamera + Lidiar Sensor (Slam Simulation + controller)
 
 # thymio
 
