@@ -1,4 +1,4 @@
-# SLAM_Robot_ThymioII
+# Robot_ThymioII, piCamera + Lidiar Sensor (Slam Simluation + controller)
 
 # thymio
 
@@ -75,8 +75,11 @@ Tests with L(200, 200)R speed, 10 seconds:
         1. distance: 65.2 cm
         2. angles: front of robot: 0.5cm, back of robot: 0.4cm
 
+# LIDAR TESTS
 
-## Tests with sensors Lidiar
+cd distanceTestsLidiar
 
+# Image Processing 
 
-## LIDAR TESTS: Check folder : distanceTestsLidiar
+• cd image_processing
+    -  Image recognition, object detection, colour recognition.
