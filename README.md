@@ -1,4 +1,4 @@
-# Robot_ThymioII: Simulation + controller - AI Deep Learning : Q-Learning algorithm
+# Robot_ThymioII: AI Deep Learning : Q-Learning algorithm
 
 - piCamera + Lidiar Sensor + Thymio's Sensors
 - Raspberry Pi 4
