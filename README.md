@@ -1,4 +1,4 @@
-# Robot_ThymioII: Deep Learning (Q-Learning Algorithm)
+# RobotThymio: AI Deep Learning (Q-Learning Algorithm)
 
 - piCamera + Lidiar Sensor + Thymio's Sensors
 - Raspberry Pi 4
