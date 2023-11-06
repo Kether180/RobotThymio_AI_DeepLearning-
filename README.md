@@ -1,14 +1,18 @@
-# Robot_ThymioII: piCamera + Lidiar Sensor (Slam Simulation + controller)
+# Robot_ThymioII: Simulation + controller - AI Deep Learning : Q-Learning algorithm
 
-# thymio
+- piCamera + Lidiar Sensor + Thymio's Sensors
+- Raspberry Pi 4
 
-- username: pi
+Q-learning is a machine learning approach that enables a model to iteratively learn and improve over time by taking the correct action. IT is also a type of reinforcement learning.
 
-- Hostname: Robo
+With reinforcement learning, a machine learning model is trained to mimic the way animals or children learn. Good actions are rewarded or reinforced, while bad actions are discouraged and penalized.
 
-- kode: RoboRobo
+With the state-action-reward-state-action form of reinforcement learning, the training regimen follows a model to take the right actions. Q-learning provides a model-free approach to reinforcement learning. There is no model of the environment to guide the reinforcement learning process. The agent -- which is the AI component that acts in the environment -- iteratively learns and makes predictions about the environment on its own.
+
 
 # Connect to Rasberry Pi Server
+
+- username: pi
 
 - ssh pi@Robo.local
 
@@ -35,64 +39,11 @@
 - open another terminal locally and run : scp <path_of_the_file> pi@192.168.0.11:/home/pi/
 - add password : RoboRobo 
 
-# Thymio Speed and Angle Test
+## Visualization gnu plot 
 
-This test involves running the Thymio robot straight for 10 seconds and measuring both the distance it traveled and the off-angle.
+- run gnuplot
 
-## L(100, 100)R Speed Test, 10 seconds
-
-- Distance: 32.5 cm
-  - Angles:
-    - Front of robot: 1 cm
-    - Back of robot: 0.4 cm
-
-- Distance: 33.1 cm
-  - Angles:
-    - Front of robot: 0 cm
-    - Back of robot: 0 cm
-
-- Distance: 33.2 cm
-  - Angles:
-    - Front of robot: 0 cm
-    - Back of robot: 0 cm
-
-- Distance: 33 cm
-  - Angles:
-    - Front of robot: 0.4 cm
-    - Back of robot: 0.3 cm
-
-- Distance: 33.2 cm
-  - Angles:
-    - Front of robot: 0 cm
-    - Back of robot: 0 cm
-
-## L(200, 200)R Speed Test, 10 seconds
-
-- Distance: 64.3 cm
-  - Angles:
-    - Front of robot: -0.1 cm
-    - Back of robot: -0.1 cm
-
-- Distance: 64.1 cm
-  - Angles:
-    - Front of robot: 0.6 cm
-    - Back of robot: 0.5 cm
-
-- Distance: 63.8 cm
-  - Angles:
-    - Front of robot: -1.2 cm
-    - Back of robot: -0.8 cm
-
-- Distance: 64.5 cm
-  - Angles:
-    - Front of robot: 1.4 cm
-    - Back of robot: 0.9 cm
-
-- Distance: 65.2 cm
-  - Angles:
-    - Front of robot: 0.5 cm
-    - Back of robot: 0.4 cm
-
+- load "simple_visualization.gnu"
 
 # Lidiar Tests
 
@@ -101,3 +52,11 @@ cd distanceTestsLidiar
 # Image Processing 
 
 • cd image_processing : Image recognition, object detection, colour recognition.
+
+# Simulation-Deep-Learning 
+
+cd simulation-deepLearning > q-learning-simulation.py  
+
+# Controller 
+
+cd Controller  > Robot_Controller.py
